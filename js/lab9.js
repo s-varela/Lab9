@@ -3,6 +3,7 @@ function init() }
    function showMeText() {
    var textbox = document.getElementbyId('entryinput');
    document.getElementbyId('textoutput');
+   alert("Sayleht Varela: " + textbox.value);
    }
    
    
